@@ -1,3 +1,14 @@
+:root
+.dark-primary-color    { background: #00796B; }
+.default-primary-color { background: #009688; }
+.light-primary-color   { background: #B2DFDB; }
+.text-primary-color    { color: #FFFFFF; }
+.accent-color          { background: #607D8B; }
+.primary-text-color    { color: #212121; }
+.secondary-text-color  { color: #757575; }
+.divider-color         { border-color: #BDBDBD; }
+
+
 * {
     box-sizing: border-box;
 }
@@ -5,6 +16,27 @@ body {
     margin: 0;
     padding: 0;
 }
+header {
+    font-family: 'Comfortaa', cursive;
+    font-size: 20px;
+}
 .navbar-brand img {
     width: 100px;
+}
+
+#servicos {
+    background-color: #e0f2f1;
+}
+
+#servicos h2 {
+    font-family: 'Comfortaa', cursive;
+    font-weight: 700px;
+    font-size: 36px;
+    color: #004d40;
+}
+
+#card {
+    font-family: 'Comfortaa', cursive;
+    font-size: 24px;
+    color: #000000;
 }
